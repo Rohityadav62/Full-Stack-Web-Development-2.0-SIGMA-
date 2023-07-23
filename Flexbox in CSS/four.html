@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <style>
+        body {
+            font-family: "open sans", sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 1250px;
+            width: 100%;
+        }
+        nav {
+            padding: 0px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0px;
+        }
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .logo-section > img {
+            width: 35px;
+            height: 35px;
+        }
+        .logo-section > p {
+                font-size: 20px;
+                font-weight: 450px;
+        }
+        .button-section {
+            display: flex;
+            gap: 55px;
+        }
+        .button-1 {
+            border: 0;
+            font-size: 20px;
+            background-color: transparent;
+            font-weight: 350px;
+            color: #2713db;
+        }
+        .button-2 {
+            padding: 8px 16px;
+            background-color: transparent;
+            font-size: 24px;
+            font-weight: 320px;
+            color: #3232ef;
+            border: 0.5px solid #000000;
+            border-radius: 6px;
+        }
+        .button-3 {
+            padding: 8px 16px;
+            background-color: #1010e7;
+            font-size: 24px;
+            font-weight: 350px;
+            color: #ffffff;
+            border: 0.5px solid #000000;
+            border-radius: 5px;
+        }
+        hr {
+            border: 1px solid #000000;
+            margin-top: 0px;
+        }
+        .main-section {
+            display: flex;
+            justify-content: space-around;
+            gap: 90px;
+        }
+        .sub-section {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0px 35px;
+        }
+        .sub-section-1 > h2 {
+            font-size: 45px;
+            margin-bottom: 0px;
+        }
+        .sub-section-1 > p {
+            margin: 12px 0px;
+        }
+        .home-buttons {
+            display: flex;
+            margin-top: 35px;
+            gap: 45px;
+        }
+        .sub-section-2 {
+            width: 60%;
+            display: flex;
+            justify-content: center;
+        }
+        .sub-section-2 > img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo-section">
+                <img src="./1.png" alt="Logo"
+                />
+                <p>Gmail</p>
+            </div>
+            <div class="button-section">
+                <button class="button-1">For Work</button>
+                <button class="button-2">Sign In</button>
+                <button class="button-3">Create an account</button>
+            </div>
+        </nav>
+        <hr />
+        <section class="main-section">
+            <section class="sub-section-1">
+                <h2>Secure, smart,and easy to use email</h2>
+                <p>Get more done with Gmail. Now integrated with Google Chat, Google Meet, and more, all in one place.</p>
+                <section class="home-buttons">
+                    <button class="button-3">Create an account</button>
+                    <button class="button-1">For Work</button>
+                </section>
+            </section>
+            <section class="sub-section-2">
+                <img src="./2.webp" alt="Image"
+                />
+            </section>
+        </section>
+    </div>
+</body>
+</html>
